@@ -185,7 +185,6 @@ class HomePageBody extends State<HomePage> {
     return isSignedIn ? Theme(
       data: Theme.of(context).copyWith(
         splashColor: Colors.transparent,
-        // highlightColor: Colors.transparent
       ),
       child: SizedBox(
         height: 90,
